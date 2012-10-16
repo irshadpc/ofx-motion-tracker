@@ -707,6 +707,7 @@ void BlobTracker::color_track(IplImage *img)
 }
 
 //find blob
+// should start searching here for memory leak
 void BlobTracker::find_blob(IplImage *img)
 {
 	tmp_blob_list.clear();
